@@ -290,7 +290,7 @@
 
                 <!-- Footer -->
                 <div class="footer">
-                    <p>&copy 2023 M64.dev | 
+                    <p>&copy; <script>document.write(new Date().getFullYear())</script> | 
                         <a href="mailto: info@m64.dev">Contact Me</a> | 
                         <a href="https://www.buymeacoffee.com/M64DiamondStar" target="_blank">Support Me</a> | 
                         This website does not collect any personal information.</p>

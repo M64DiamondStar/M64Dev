@@ -25,7 +25,6 @@
 
     <body>
 
-
         <button onclick="topFunction()" id="scrollUp" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
 
         <script>
@@ -270,6 +269,8 @@
                     <p>IngeniaMC is a custom Minecraft Theme Park. I'm creating it together with
                         a fantastic Minecraft player called AvontuurierGamer who's also a good 
                         friend of mine. Together we're aiming to give players the best possible experience.
+                        You can join the server by using the IP <b>play.IngeniaMC.net</b> on the latest version.
+                        The server is Java-only.
                     </p>
 
                     <div class="socials">

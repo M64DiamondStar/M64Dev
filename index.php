@@ -229,7 +229,7 @@
                                         <li><a href="https://discord.com/invite/Scv9afJwXp" target="_blank"><img class="icon" src="images/icons/discord.svg" alt="Open Discord" title="Discord"/></a></li>
                                         <li><a href="https://www.spigotmc.org/resources/effectmaster-create-beautiful-shows-in-your-server.107260/" target="_blank"><img class="icon" src="images/icons/spigot.svg" alt="Open Spigot" title="SpigotMC"/></a></li>
                                         <li><a href="https://github.com/M64DiamondStar/EffectMaster" target="_blank"><img class="icon" src="images/icons/github.svg" alt="Open Github" title="GitHub"/></a></li>
-                                        <li><a href="https://github.com/M64DiamondStar/EffectMaster/wiki" target="_blank"><img class="icon" src="images/icons/wiki.svg" alt="Open Spigot" title="Wiki"/></a></li>
+                                        <li><a href="https://effectmaster.m64.dev/" target="_blank"><img class="icon" src="images/icons/wiki.svg" alt="Open Wiki" title="Wiki"/></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -238,22 +238,11 @@
                         <!-- Soon 1 -->
                         <div class="container">
 
-                            <img class="plugin-logo" src="images/plugins/soon-1.png">
+                            <img class="plugin-logo" src="images/plugins/dialoguemaster.png">
 
                             <div class="paragraph">
-                                <h3>Soon...?</h3>
-                                <p>Or maybe not so soon, who knows?</p>
-                            </div>
-                        </div>
-
-                        <!-- Soon 2 -->
-                        <div class="container">
-
-                            <img class="plugin-logo" src="images/plugins/soon-2.png">
-
-                            <div class="paragraph">
-                                <h3>Soon (2.0)...?</h3>
-                                <p>I wonder when this will release.</p>
+                                <h3>DialogueMaster [SOON]</h3>
+                                <p>This plugin is still under development...</p>
                             </div>
                         </div>
                     </div>

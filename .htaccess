@@ -21,6 +21,9 @@ RewriteBase /
 #### PERSISTENT CONTENT ####
 DirectoryIndex index.php
 RewriteCond %{REQUEST_FILENAME} !-f [OR]
+RewriteCond %{REQUEST_FILENAME}\.php !-f
 RewriteCond %{REQUEST_URI} ^\/(js\/main\.js|css\/(\d+|common|site)\.css)$
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^([A-Za-z0-9_-]+)$    products.php?id=$1    [NC,L]    # Handle page requests`
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+

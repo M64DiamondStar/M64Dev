@@ -28,7 +28,7 @@
 
     <body>
         <nav id="navbar">
-            <a class="link item active" href="/">
+            <a class="link item" href="/">
                 <i class="fa-solid fa-user"></i>
                 <span>About</span>
             </a>
@@ -40,7 +40,7 @@
                 <i class="fa-solid fa-gem"></i>
                 <span>Donate</span>
             </a>
-            <a class="link item" href="/contact">
+            <a class="link item active" href="/contact">
                 <i class="fas fa-envelope-open"></i>
                 <span>Contact</span>
             </a>
@@ -49,10 +49,19 @@
             <div class="page-content">
                 <div class="section-wrapper">
                     <section class="intro">
-                        <h2 class="scramble">M64's Portfolio</h2>
-                        <p class="scramble">Heya! Welcome to my portfolio! I'm M64, a Minecraft plugin nerd, also known as a developer.</p>
-                        <p class="scramble">Want to know what kind of work I've done, or what I'm working on at the moment? Head over to the <a class="link" href="/projects">projects</a> page!</p>
-                        <p class="scramble">If you need a specific plugin, you can also <a class="link" href="/contact">contact</a> me. I'm currently open for commissions!</p>
+                        <h2 class="scramble">Contact me</h2>
+                        <p>There're a few ways to contact me. You can use SpigotMC, <br>E-Mail or Discord, but I'm most active on Discord if you're looking for a quick response.</p>
+                        <div class="btn-row">
+                                    <a class="btn link" href="https://venturevalley.tebex.io" target="_blank" rel="EffectMaster GitHub">
+                                        <i class="fa-solid fa-envelope"> Mail</i>
+                                    </a>
+                                    <a class="btn link" href="https://discord.com/invite/Scv9afJwXp" target="_blank" rel="M64's Hangout">
+                                        <i class="fa-brands fa-discord"> Discord</i>
+                                    </a>
+                                    <a class="btn link" href="https://venturevalleymc.nl" target="_blank" rel="EffectMaster Download">
+                                        <i class="fa-solid fa-faucet"> Spigot</i>
+                                    </a>
+                                </div>
                     </section>
                 </div>
             </div>
@@ -61,7 +70,7 @@
         <script>
             document.addEventListener("DOMContentLoaded", function() {
                 const elements = document.querySelectorAll('.scramble');
-                elements.forEach(element => scrambleText(element, 800)); // Total duration of 1.5 seconds
+                elements.forEach(element => scrambleText(element, 750)); // Total duration of 1.5 seconds
 
                 function scrambleText(element, duration) {
                     const originalHtml = element.innerHTML; // Store original HTML to restore later
@@ -199,6 +208,31 @@
         .section-wrapper section {
             max-width: 600px;
             padding: 10px;
+        }
+
+        .btn {
+            color: #a8a8a8;
+            margin: 10px;
+            border: none;
+            background: 0 0;
+            cursor: pointer;
+        }
+
+        .btn-row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .btn-row .btn:first-of-type {
+            margin-left: 0;
+        }
+
+        .btn-row .btn:last-of-type {
+            margin-right: 0;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
         }
 
         #wrapper {

@@ -63,6 +63,12 @@ div {
     }
 }
 
+@media only screen and (max-width: 500px) {
+    #navbar .nav-icon {
+        display: none;
+    }
+}
+
 .section-wrapper {
     display: flex;
     flex-direction: column;

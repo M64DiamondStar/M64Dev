@@ -32,19 +32,19 @@
     <body>
         <nav id="navbar">
             <a class="link item" href="/">
-                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-user nav-icon"></i>
                 <span>About</span>
             </a>
             <a class="link item active" href="/projects">
-                <i class="fa-solid fa-folder-open"></i>
+                <i class="fa-solid fa-folder-open nav-icon"></i>
                 <span>Projects</span>
             </a>
             <a class="link item" href="/contact">
-                <i class="fas fa-envelope-open"></i>
+                <i class="fas fa-envelope-open nav-icon"></i>
                 <span>Contact</span>
             </a>
             <a class="link item" target="_blank" href="https://bmc.link/M64DiamondStar">
-                <i class="fa-solid fa-gem"></i>
+                <i class="fa-solid fa-gem nav-icon"></i>
                 <span>Donate</span>
             </a>
         </nav>

@@ -32,19 +32,19 @@
     <body>
         <nav id="navbar">
             <a class="link item" href="/">
-                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-user nav-icon"></i>
                 <span>About</span>
             </a>
             <a class="link item" href="/projects">
-                <i class="fa-solid fa-folder-open"></i>
+                <i class="fa-solid fa-folder-open nav-icon"></i>
                 <span>Projects</span>
             </a>
             <a class="link item active" href="/contact">
-                <i class="fas fa-envelope-open"></i>
+                <i class="fas fa-envelope-open nav-icon"></i>
                 <span>Contact</span>
             </a>
             <a class="link item" target="_blank" href="https://bmc.link/M64DiamondStar">
-                <i class="fa-solid fa-gem"></i>
+                <i class="fa-solid fa-gem nav-icon"></i>
                 <span>Donate</span>
             </a>
         </nav>
@@ -52,7 +52,7 @@
             <div class="page-content">
                 <div class="section-wrapper">
                     <section class="intro">
-                        <h2 class="scramble">Contact me</h2>
+                        <h2 class="scramble"><i class="fa-solid fa-address-book"></i> Contact me</h2>
                         <p>There're a few ways to contact me. You can use SpigotMC, <br>E-Mail or Discord, but I'm most active on Discord if you're looking for a quick response.</p>
                         <div class="btn-row">
                                     <a class="btn link" href= "mailto: info@m64.dev" target="_blank" rel="M64's Mail">

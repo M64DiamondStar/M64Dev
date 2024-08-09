@@ -26,25 +26,25 @@
 
         <script src="https://kit.fontawesome.com/2ef25d02cd.js" crossorigin="anonymous"></script>
         <script defer src="app.js"></script>
-        
+
     </header>
 
     <body>
         <nav id="navbar">
             <a class="link item active" href="/">
-                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-user nav-icon"></i>
                 <span>About</span>
             </a>
             <a class="link item" href="/projects">
-                <i class="fa-solid fa-folder-open"></i>
+                <i class="fa-solid fa-folder-open nav-icon"></i>
                 <span>Projects</span>
             </a>
             <a class="link item" href="/contact">
-                <i class="fas fa-envelope-open"></i>
+                <i class="fas fa-envelope-open nav-icon"></i>
                 <span>Contact</span>
             </a>
             <a class="link item" target="_blank" href="https://bmc.link/M64DiamondStar">
-                <i class="fa-solid fa-gem"></i>
+                <i class="fa-solid fa-gem nav-icon"></i>
                 <span>Donate</span>
             </a>
         </nav>
@@ -52,7 +52,7 @@
             <div class="page-content">
                 <div class="section-wrapper">
                     <section class="intro">
-                        <h2 class="scramble">M64's Portfolio</h2>
+                        <h2 class="scramble"><i class="fa-solid fa-address-card"></i> M64's Portfolio</h2>
                         <p class="scramble">Heya! Welcome to my portfolio! I'm M64, a Minecraft plugin nerd, also known as a developer.</p>
                         <p class="scramble">Want to know what kind of work I've done, or what I'm working on at the moment? Head over to the <a class="link" href="/projects">projects</a> page!</p>
                         <p class="scramble">If you need a specific plugin, you can also <a class="link" href="/contact">contact</a> me. I'm currently open for commissions!</p>

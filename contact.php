@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <header>
-        <title>m64.jar</title>
+        <title>./m64.jar</title>
 
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -52,13 +52,13 @@
                         <h2 class="scramble">Contact me</h2>
                         <p>There're a few ways to contact me. You can use SpigotMC, <br>E-Mail or Discord, but I'm most active on Discord if you're looking for a quick response.</p>
                         <div class="btn-row">
-                                    <a class="btn link" href="https://venturevalley.tebex.io" target="_blank" rel="EffectMaster GitHub">
+                                    <a class="btn link" href= "mailto: info@m64.dev" target="_blank" rel="M64's Mail">
                                         <i class="fa-solid fa-envelope"> Mail</i>
                                     </a>
                                     <a class="btn link" href="https://discord.com/invite/Scv9afJwXp" target="_blank" rel="M64's Hangout">
                                         <i class="fa-brands fa-discord"> Discord</i>
                                     </a>
-                                    <a class="btn link" href="https://venturevalleymc.nl" target="_blank" rel="EffectMaster Download">
+                                    <a class="btn link" href="https://www.spigotmc.org/members/m64diamondstar.551660/" target="_blank" rel="M64's Spigot">
                                         <i class="fa-solid fa-faucet"> Spigot</i>
                                     </a>
                                 </div>

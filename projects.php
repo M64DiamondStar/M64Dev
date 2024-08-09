@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <header>
-        <title>m64.jar</title>
+        <title>./m64.jar</title>
 
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -93,7 +93,7 @@
                                     </p>
                                 </div>
                                 <div class="btn-row">
-                                    <a class="btn link" href="https://www.spigotmc.org/resources/bonemealvines-simple-utility-to-bonemeal-vines.111360/" target="_blank" rel="EffectMaster Download">
+                                    <a class="btn link" href="https://www.spigotmc.org/resources/bonemealvines-simple-utility-to-bonemeal-vines.111360/" target="_blank" rel="BonemealVines Download">
                                         <i class="fas fa-download"></i>
                                     </a>
                                 </div>
@@ -116,10 +116,10 @@
                                     </p>
                                 </div>
                                 <div class="btn-row">
-                                    <a class="btn link" href="https://github.com/M64DiamondStar/DialogueMaster-API" target="_blank" rel="EffectMaster GitHub">
+                                    <a class="btn link" href="https://github.com/M64DiamondStar/DialogueMaster-API" target="_blank" rel="DialogueMaster GitHub API">
                                         <i class="fab fa-github"></i>
                                     </a>
-                                    <a class="btn link" href="https://dialoguemaster.m64.dev" target="_blank" rel="EffectMaster Wiki">
+                                    <a class="btn link" href="https://dialoguemaster.m64.dev" target="_blank" rel="DialogueMaster Wiki">
                                         <i class="fa-solid fa-book"></i>
                                     </a>
                                 </div>
@@ -191,22 +191,22 @@
                                     </p>
                                 </div>      
                                 <div class="btn-row">
-                                    <a class="btn link" href="https://ingeniamc.net/" target="_blank" rel="EffectMaster Download">
+                                    <a class="btn link" href="https://ingeniamc.net/" target="_blank" rel="IngeniaMC Website">
                                         <i class="fa-solid fa-globe"></i>
                                     </a>
-                                    <a class="btn link" href="https://store.ingeniamc.net/" target="_blank" rel="EffectMaster GitHub">
+                                    <a class="btn link" href="https://store.ingeniamc.net/" target="_blank" rel="IngeniaMC Store">
                                         <i class="fa-solid fa-store"></i>
                                     </a>
-                                    <a class="btn link" href="https://discord.ingeniamc.net/" target="_blank" rel="EffectMaster Wiki">
+                                    <a class="btn link" href="https://discord.ingeniamc.net/" target="_blank" rel="IngeniaMC Discord">
                                         <i class="fa-brands fa-discord"></i>
                                     </a>
-                                    <a class="btn link" href="https://tiktok.ingeniamc.net/" target="_blank" rel="EffectMaster Wiki">
+                                    <a class="btn link" href="https://tiktok.ingeniamc.net/" target="_blank" rel="IngeniaMC TikTok">
                                         <i class="fa-brands fa-tiktok"></i>
                                     </a>
-                                    <a class="btn link" href="https://insta.ingeniamc.net/" target="_blank" rel="EffectMaster Wiki">
+                                    <a class="btn link" href="https://insta.ingeniamc.net/" target="_blank" rel="IngeniaMC Instagram">
                                         <i class="fa-brands fa-instagram"></i>
                                     </a>
-                                    <a class="btn link" href="https://www.youtube.com/watch?v=t4LSJjS4Rl0" target="_blank" rel="EffectMaster Wiki">
+                                    <a class="btn link" href="https://www.youtube.com/watch?v=t4LSJjS4Rl0" target="_blank" rel="IngeniaMC Youtube">
                                         <i class="fa-brands fa-youtube"></i>
                                     </a>
                                 </div>
@@ -229,22 +229,22 @@
                                     </p>
                                 </div>
                                 <div class="btn-row">
-                                    <a class="btn link" href="https://venturevalleymc.nl" target="_blank" rel="EffectMaster Download">
+                                    <a class="btn link" href="https://venturevalleymc.nl" target="_blank" rel="VentureValley Website">
                                         <i class="fa-solid fa-globe"></i>
                                     </a>
-                                    <a class="btn link" href="https://venturevalley.tebex.io" target="_blank" rel="EffectMaster GitHub">
+                                    <a class="btn link" href="https://venturevalley.tebex.io" target="_blank" rel="VentureValley Store">
                                         <i class="fa-solid fa-store"></i>
                                     </a>
-                                    <a class="btn link" href="https://discord.venturevalleymc.nl/" target="_blank" rel="EffectMaster Wiki">
+                                    <a class="btn link" href="https://discord.venturevalleymc.nl/" target="_blank" rel="VentureValley Discord">
                                         <i class="fa-brands fa-discord"></i>
                                     </a>
-                                    <a class="btn link" href="https://tiktok.com/@venturevalley" target="_blank" rel="EffectMaster Wiki">
+                                    <a class="btn link" href="https://tiktok.com/@venturevalley" target="_blank" rel="VentureValley TikTok">
                                         <i class="fa-brands fa-tiktok"></i>
                                     </a>
-                                    <a class="btn link" href="https://instagram.com/venturevalleymc" target="_blank" rel="EffectMaster Wiki">
+                                    <a class="btn link" href="https://instagram.com/venturevalleymc" target="_blank" rel="VentureValley Instagram">
                                         <i class="fa-brands fa-instagram"></i>
                                     </a>
-                                    <a class="btn link" href="https://youtube.com/@venturevalley" target="_blank" rel="EffectMaster Wiki">
+                                    <a class="btn link" href="https://youtube.com/@venturevalley" target="_blank" rel="VentureValley Youtube">
                                         <i class="fa-brands fa-youtube"></i>
                                     </a>
                                 </div>

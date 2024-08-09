@@ -39,19 +39,19 @@
                 <i class="fa-solid fa-folder-open"></i>
                 <span>Projects</span>
             </a>
-            <a class="link item" target="_blank" href="https://bmc.link/M64DiamondStar">
-                <i class="fa-solid fa-gem"></i>
-                <span>Donate</span>
-            </a>
             <a class="link item" href="/contact">
                 <i class="fas fa-envelope-open"></i>
                 <span>Contact</span>
+            </a>
+            <a class="link item" target="_blank" href="https://bmc.link/M64DiamondStar">
+                <i class="fa-solid fa-gem"></i>
+                <span>Donate</span>
             </a>
         </nav>
         <div id="wrapper">
             <div class="page-content">
                 <div class="section-wrapper">
-                    <h2 class="scramble">Spigot Plugins</h2>
+                    <h2 class="scramble"><i class="fa-solid fa-puzzle-piece"></i> Spigot Plugins</h2>
                     <section class="project-list">
                         <section class="project">
                             <div>
@@ -63,9 +63,7 @@
                             </div>
                             <div>
                                 <h3>EffectMaster</h3>
-                                <div class="project-description">
                                     <p>My first decent and public plugin. EffectMaster allows players to create beautiful shows, composed by a variety of different effects from the plugin itself.</p>
-                                </div>
                                 <div class="btn-row">
                                     <a class="btn link" href="https://www.spigotmc.org/resources/effectmaster-create-beautiful-shows-in-your-server.107260/" target="_blank" rel="EffectMaster Download">
                                         <i class="fas fa-download"></i>
@@ -90,11 +88,9 @@
                             </div>
                             <div>
                                 <h3>BonemealVines</h3>
-                                <div class="project-description">
                                     <p>A very simple plugin which allows you to bonemeal vines. This plugin will likely not receive any more
                                         updates because I made it with the intention to be simple.
                                     </p>
-                                </div>
                                 <div class="btn-row">
                                     <a class="btn link" href="https://www.spigotmc.org/resources/bonemealvines-simple-utility-to-bonemeal-vines.111360/" target="_blank" rel="BonemealVines Download">
                                         <i class="fas fa-download"></i>
@@ -113,11 +109,9 @@
                             </div>
                             <div>
                                 <h3>DialogueMaster [IN DEVELOPMENT]</h3>
-                                <div class="project-description">
                                     <p>DialogueMaster is an up and coming plugin, which will allow you to create some beautiful interactive dialogues with
                                         the help of resourcepacks.
                                     </p>
-                                </div>
                                 <div class="btn-row">
                                     <a class="btn link" href="https://github.com/M64DiamondStar/DialogueMaster-API" target="_blank" rel="DialogueMaster GitHub API">
                                         <i class="fab fa-github"></i>
@@ -131,7 +125,7 @@
                     </section>
 
                     <br>
-                    <h2 class="scramble">Commission Plugins</h2>
+                    <h2 class="scramble"><i class="fa-solid fa-cart-shopping"></i> Commission Plugins</h2>
                     <section class="project-list">
                         <section class="project">
                             <div>
@@ -143,13 +137,11 @@
                             </div>
                             <div>
                                 <h3>AdvancedLeaderboard</h3>
-                                <div class="project-description">
                                     <p>A plugin which allows you to create some beautiful leaderboards, made with item frames!
                                         You can switch between all-time score, monthly score, weekly score and daily score. But that's
                                         not all, because it's also extremely customizable. You can edit the colors of every element, use images
                                         and the plugin even comes with some custom placeholders and TrainCarts support!
                                     </p>
-                                </div>
                             </div>
                         </section>
 
@@ -163,20 +155,18 @@
                             </div>
                             <div>
                                 <h3>Queues</h3>
-                                <div class="project-description">
                                     <p>Queues is the second commission I've done. It looks simple from above, but it was a fun challenge to code! This plugin allows
                                         you to create virtual queues for rides. Once your wait time is over, you'll get teleported to the queue's destination. You can allow
                                         multiple people to go into the same queue spot, and it automatically rebalances everything whenever someone leaves the queue or
                                         leaves the server.
                                     </p>
-                                </div>
                             </div>
                         </section>
                     </section>
 
 
                     <br>
-                    <h2 class="scramble">Servers</h2>
+                    <h2 class="scramble"><i class="fa-solid fa-server"></i> Servers</h2>
                     <section class="project-list">
                         <section class="project">
                             <div>
@@ -188,11 +178,10 @@
                             </div>
                             <div>
                                 <h3>IngeniaMC</h3>
-                                <div class="project-description">
-                                    <p>IngeniaMC is a Minecraft Theme Park server I own together with a dear friend of mine. 
-                                        For this I've developed a core plugin which handles 90% of what happens in the server.
+                                    <p>IngeniaMC is a beautiful and unique Minecraft Theme Park server I own together with a dear friend of mine. 
+                                        For this I've developed a core plugin which handles 90% of what happens in the server and adds some crazy cool
+                                        features like wands, body-wear and a beautiful dialogue system.
                                     </p>
-                                </div>      
                                 <div class="btn-row">
                                     <a class="btn link" href="https://ingeniamc.net/" target="_blank" rel="IngeniaMC Website">
                                         <i class="fa-solid fa-globe"></i>
@@ -226,11 +215,9 @@
                             </div>
                             <div>
                                 <h3>VentureValley</h3>
-                                <div class="project-description">
                                     <p>Another Theme Park server which is a must to visit once it opens! The server is still in development,
-                                        but it has a lot of potential! I'm the developer on this server and code the features which make the server unique.
+                                        but it has a lot of potential. I'm the developer on this server and code the features which make the server unique.
                                     </p>
-                                </div>
                                 <div class="btn-row">
                                     <a class="btn link" href="https://venturevalleymc.nl" target="_blank" rel="VentureValley Website">
                                         <i class="fa-solid fa-globe"></i>
@@ -258,18 +245,7 @@
             </div>
         </div>
 
-
         <script>
-            document.querySelectorAll('.toggle-btn').forEach(button => {
-                button.addEventListener('click', function() {
-                    const description = this.previousElementSibling;
-                    const isExpanded = description.classList.toggle('expanded');
-                    this.textContent = isExpanded ? 'Read Less' : 'Read More';
-                });
-            });
-        </script>
-
-<script>
             document.addEventListener("DOMContentLoaded", function() {
                 const elements = document.querySelectorAll('.scramble');
                 elements.forEach(element => scrambleText(element, 800)); // Total duration of 1.5 seconds

@@ -70,7 +70,7 @@ div {
 }
 
 .section-wrapper section {
-    max-width: 600px;
+    max-width: 800px;
     padding: 10px;
 }
 
@@ -94,7 +94,7 @@ h3 {
 }
 
 .page-content {
-    max-width: 800px;
+    max-width: 1000px;
 }
 
 .project-list {
@@ -152,27 +152,6 @@ h3 {
     transition: all 0.3s ease;
     overflow: hidden;
 }
-
-.project-description {
-    display: -webkit-box;
-    line-clamp: 2;
-    -webkit-line-clamp: 2; /* Show only 2 lines */
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-height: 72px; /* Adjust based on your line height */
-    opacity: 0.8; /* Slightly fade the text initially */
-    transition: max-height 0.5s ease, opacity 0.5s ease;
-}
-
-.project:hover .project-description {
-    max-height: 1000px; /* Arbitrary large value to allow expansion */
-    line-clamp: unset;
-    -webkit-line-clamp: unset;
-    opacity: 1; /* Fully visible on hover */
-}
-
-
 
 .link {
     color: #ddd;

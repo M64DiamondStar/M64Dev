@@ -39,13 +39,13 @@
                 <i class="fa-solid fa-folder-open"></i>
                 <span>Projects</span>
             </a>
-            <a class="link item" target="_blank" href="https://bmc.link/M64DiamondStar">
-                <i class="fa-solid fa-gem"></i>
-                <span>Donate</span>
-            </a>
             <a class="link item" href="/contact">
                 <i class="fas fa-envelope-open"></i>
                 <span>Contact</span>
+            </a>
+            <a class="link item" target="_blank" href="https://bmc.link/M64DiamondStar">
+                <i class="fa-solid fa-gem"></i>
+                <span>Donate</span>
             </a>
         </nav>
         <div id="wrapper">

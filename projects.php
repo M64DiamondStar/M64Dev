@@ -53,7 +53,7 @@
                 <div class="section-wrapper">
                     <h2 class="scramble"><i class="fa-solid fa-puzzle-piece"></i> Spigot Plugins</h2>
                     <section class="project-list">
-                        <section class="project">
+                        <section class="project" id="effectmaster">
                             <div>
                                 <picture>
                                     <source type="image/webp" srcset="/assets/projects/effectmaster.webp">
@@ -78,7 +78,7 @@
                             </div>
                         </section>
 
-                        <section class="project">
+                        <section class="project" id="bonemealvines">
                             <div>
                                 <picture>
                                     <source type="image/webp" srcset="/assets/projects/bonemealvines.webp">
@@ -99,7 +99,7 @@
                             </div>
                         </section>
 
-                        <section class="project">
+                        <section class="project" id="dialoguemaster">
                             <div>
                                 <picture>
                                     <source type="image/webp" srcset="/assets/projects/dialoguemaster.webp">
@@ -127,7 +127,7 @@
                     <br>
                     <h2 class="scramble"><i class="fa-solid fa-cart-shopping"></i> Commission Plugins</h2>
                     <section class="project-list">
-                        <section class="project">
+                        <section class="project" id="advancedleaderboard">
                             <div>
                                 <picture>
                                     <source type="image/webp" srcset="/assets/projects/advancedleaderboard.webp">
@@ -145,7 +145,7 @@
                             </div>
                         </section>
 
-                        <section class="project">
+                        <section class="project" id="queues">
                             <div>
                                 <picture>
                                     <source type="image/webp" srcset="/assets/projects/queues.webp">
@@ -168,7 +168,7 @@
                     <br>
                     <h2 class="scramble"><i class="fa-solid fa-server"></i> Servers</h2>
                     <section class="project-list">
-                        <section class="project">
+                        <section class="project" id="ingeniamc">
                             <div>
                                 <picture>
                                     <source type="image/webp" srcset="/assets/projects/ingeniamc.webp">
@@ -205,7 +205,7 @@
                             </div>
                         </section>
 
-                        <section class="project">
+                        <section class="project" id="venturevalley">
                             <div>
                                 <picture>
                                     <source type="image/webp" srcset="/assets/projects/venturevalley.webp">

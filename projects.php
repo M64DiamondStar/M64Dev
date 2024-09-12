@@ -215,7 +215,7 @@
                             </div>
                             <div>
                                 <h3>VentureValley</h3>
-                                    <p>Another Theme Park server which is a must to visit once it opens! The server is still in development,
+                                    <p>A beautiful Theme Park server which is a must to visit once it opens (on the 15th of September)! The server is still in development,
                                         but it has a lot of potential. I'm the developer on this server and code the features which make the server unique.
                                     </p>
                                 <div class="btn-row">

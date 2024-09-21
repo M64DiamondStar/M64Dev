@@ -65,7 +65,7 @@
                                 <h3>EffectMaster</h3>
                                     <p>My first decent and public plugin. EffectMaster allows players to create beautiful shows, composed by a variety of different effects from the plugin itself.</p>
                                 <div class="btn-row">
-                                    <a class="btn link" href="https://www.spigotmc.org/resources/effectmaster-create-beautiful-shows-in-your-server.107260/" target="_blank" rel="EffectMaster Download">
+                                    <a class="btn link" href="https://modrinth.com/plugin/effectmaster" target="_blank" rel="EffectMaster Download">
                                         <i class="fas fa-download"></i>
                                     </a>
                                     <a class="btn link" href="https://github.com/M64DiamondStar/EffectMaster" target="_blank" rel="EffectMaster GitHub">

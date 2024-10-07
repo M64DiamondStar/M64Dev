@@ -162,6 +162,24 @@
                                     </p>
                             </div>
                         </section>
+
+                        <section class="project" id="motionmaps">
+                            <div>
+                                <picture>
+                                    <source type="image/webp" srcset="/assets/projects/motionmaps.webp">
+                                    <source type="image/jpg" srcset="/assets/projects/motionmaps.jpg">
+                                    <img class="project-icon" src="/assets/projects/motionmaps.jpg" alt="MotionMaps icon">
+                                </picture>
+                            </div>
+                            <div>
+                                <h3>MotionMaps</h3>
+                                    <p>MotionMaps is a plugin which simply allows you to create animated videos inside item frames by dropping some png files 
+                                        into a folder. You can set the size of the screen, the fps and some other small settings. The plugin also makes use of 
+                                        the <a href="https://github.com/SBDPlugins/MapReflectionAPI">MapReflectionAPI</a> in order to send updated maps to the 
+                                        player in an optimized and quick way.
+                                    </p>
+                            </div>
+                        </section>
                     </section>
 
 

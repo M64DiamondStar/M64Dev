@@ -175,7 +175,7 @@
                                 <h3>MotionMaps</h3>
                                     <p>MotionMaps is a plugin which simply allows you to create animated videos inside item frames by dropping some png files 
                                         into a folder. You can set the size of the screen, the fps and some other small settings. The plugin also makes use of 
-                                        the <a href="https://github.com/SBDPlugins/MapReflectionAPI" class="link">MapReflectionAPI</a> in order to send updated maps to the 
+                                        the <a href="https://github.com/SBDPlugins/MapReflectionAPI" class="link" target="_blank">MapReflectionAPI</a> in order to send updated maps to the 
                                         player in an optimized and quick way.
                                     </p>
                             </div>

@@ -137,10 +137,7 @@
                             </div>
                             <div>
                                 <h3>AdvancedLeaderboard</h3>
-                                    <p>A plugin which allows you to create some beautiful leaderboards, made with item frames!
-                                        You can switch between all-time score, monthly score, weekly score and daily score. But that's
-                                        not all, because it's also extremely customizable. You can edit the colors of every element, use images
-                                        and the plugin even comes with some custom placeholders and TrainCarts support!
+                                    <p>Create stunning leaderboards using item frames with this highly customizable plugin. Easily switch between all-time, monthly, weekly, and daily scores. Customize every aspect, from colors to images, and enjoy built-in custom placeholders. It also supports TrainCarts for added functionality, making it perfect for theme park servers.
                                     </p>
                             </div>
                         </section>
@@ -155,10 +152,7 @@
                             </div>
                             <div>
                                 <h3>Queues</h3>
-                                    <p>Queues is the second commission I've done. It looks simple from above, but it was a fun challenge to code! This plugin allows
-                                        you to create virtual queues for rides. Once your wait time is over, you'll get teleported to the queue's destination. You can allow
-                                        multiple people to go into the same queue spot, and it automatically rebalances everything whenever someone leaves the queue or
-                                        leaves the server.
+                                    <p>Manage virtual queues for rides with ease using this plugin. It automatically teleports players to the queue's destination when their wait time is up. You can allow multiple players per queue spot, and the system rebalances itself if players leave the queue or server. A challenging yet fun plugin designed for smooth queue management.
                                     </p>
                             </div>
                         </section>
@@ -173,10 +167,22 @@
                             </div>
                             <div>
                                 <h3>MotionMaps</h3>
-                                    <p>MotionMaps is a plugin which simply allows you to create animated videos inside item frames by dropping some png files 
-                                        into a folder. You can set the size of the screen, the fps and some other small settings. The plugin also makes use of 
-                                        the <a href="https://github.com/SBDPlugins/MapReflectionAPI" class="link" target="_blank">MapReflectionAPI</a> in order to send updated maps to the 
-                                        player in an optimized and quick way.
+                                    <p>Create animated videos within item frames by simply dropping PNG files into a folder. Control settings like screen size and frame rate (fps) to suit your needs. MotionMaps is optimized with the <a href="https://github.com/SBDPlugins/MapReflectionAPI" class="link" target="_blank">MapReflectionAPI</a> for smooth, fast map updates, making it an efficient way to add dynamic visuals to your server.
+                                    </p>
+                            </div>
+                        </section>
+
+                        <section class="project" id="playermotion">
+                            <div>
+                                <picture>
+                                    <source type="image/webp" srcset="/assets/projects/playermotion.webp">
+                                    <source type="image/jpg" srcset="/assets/projects/playermotion.jpg">
+                                    <img class="project-icon" src="/assets/projects/playermotion.jpg" alt="PlayerMotion icon">
+                                </picture>
+                            </div>
+                            <div>
+                                <h3>PlayerMotion</h3>
+                                    <p>PlayerMotion lets server owners define circular areas that trigger commands when players enter or leave. Commands are executed only when the first player enters or the last player exits, making it perfect for creating interactive zones and automated events. Ideal for creative and adventure-based server setups.
                                     </p>
                             </div>
                         </section>

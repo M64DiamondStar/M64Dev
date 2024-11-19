@@ -186,6 +186,21 @@
                                     </p>
                             </div>
                         </section>
+
+                        <section class="project" id="parkcosmetics">
+                            <div>
+                                <picture>
+                                    <source type="image/webp" srcset="/assets/projects/parkcosmetics.webp">
+                                    <source type="image/jpg" srcset="/assets/projects/parkcosmetics.jpg">
+                                    <img class="project-icon" src="/assets/projects/parkcosmetics.jpg" alt="ParkCosmetics icon">
+                                </picture>
+                            </div>
+                            <div>
+                                <h3>ParkCosmetics</h3>
+                                    <p>ParkCosmetics brings your server to life with customizable shops, complete with unique items, shop NPCs, and textured GUIs. Beyond shops, it’s perfect for creating amazing cosmetics, offering a simple system to add new types. With ParkCosmetics, keeping your server fresh and engaging has never been easier.
+                                    </p>
+                            </div>
+                        </section>
                     </section>
 
 

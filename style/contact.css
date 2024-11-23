@@ -107,6 +107,7 @@ div {
 
 #wrapper {
     font-family: "Noto Sans Mono", monospace;
+    font-weight: 300;
     padding: 40px 0;
     margin: 0 30px;
     display: flex;

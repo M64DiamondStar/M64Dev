@@ -1,3 +1,7 @@
+::selection {
+    background-color: #b8b8b8;
+}
+
 html {
     scroll-behavior: smooth;
     line-height: 1.15;
@@ -65,12 +69,21 @@ div {
     .project-icon {
         display: none;
     }
+
 }
 
 @media only screen and (max-width: 500px) {
     #navbar .nav-icon {
         display: none;
     }
+}
+
+@media only screen and (max-width: 806px) {
+    .introduction img {
+        display: none;
+    }
+
+
 }
 
 .section-wrapper {
@@ -86,6 +99,7 @@ div {
 
 #wrapper {
     font-family: "Noto Sans Mono", monospace;
+    font-weight: 300;
     padding: 40px 0;
     margin: 0 30px;
     display: flex;
@@ -156,6 +170,91 @@ h3 {
     transform: translateY(-3px);
 }
 
+.introduction .info-img {
+    display: flex;
+    max-width: 800px;
+}
+
+.introduction .info-img .text-content {
+    display: inline;
+}
+
+.introduction img {
+    width: 32%;
+    height: auto;
+    padding: 32px;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+    border: 2px solid #333;
+    border-radius: 100px;
+    width: 30em;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    margin-top: 12px;
+}
+
+.toggle-button {
+    flex: 1;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #b8b8b8;
+    font-weight: 500;
+    font-family: "Noto Sans Mono", monospace;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    z-index: 1;
+    transition: color 0.3s ease;
+}
+
+.toggle-button.active {
+    color: #fff;
+}
+
+.button-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 33.33%; /* Adjust width for three buttons */
+    height: 100%;
+    background-color: #333;
+    border-radius: 20px;
+    z-index: 0;
+    transition: transform 0.3s ease;
+}
+
+/* Active background on the first button */
+.button-container.dev-active::before {
+    transform: translateX(0);
+}
+
+/* Active background on the second button */
+.button-container.model-active::before {
+    transform: translateX(101%);
+}
+
+/* Active background on the third button */
+.button-container.builds-active::before {
+    transform: translateX(202%);
+}
+
+#modeling-projects {
+    display: none;
+}
+
+#building-projects {
+    display: none;
+}
+
 .project {
     display: flex;
     flex-direction: row;
@@ -175,6 +274,74 @@ h3 {
 
 .link:hover {
     color: #fff;
+}
+
+.image-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 30px 4px;
+    max-width: 800px;
+}
+
+.image-column {
+    -ms-flex: 25%;
+    flex: 25%;
+    padding: 0 4px;
+}
+
+.image-column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    transition: transform 0.2s ease;
+    filter: brightness();
+    z-index: 1;
+}
+
+.image-column img:hover {
+    transform: scale(1.03);
+    z-index: 2;
+}
+
+.image-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100vw; /* Full width */
+    height: 100vh; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+.modal-content {
+    position: absolute; /* Allow positioning within the modal */
+    top: 50%; /* Position 50% down the container */
+    left: 50%; /* Position 50% across the container */
+    transform: translate(-50%, -50%); /* Center by adjusting for its dimensions */
+    max-width: 80vw; /* Limit based on viewport width */
+    max-height: 80vh; /* Limit based on viewport height */
+    object-fit: contain; /* Ensures the image scales correctly */
+}
+
+#modal-close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+
+
+#modal-close:hover,#modal-close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 footer {

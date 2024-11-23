@@ -81,7 +81,7 @@
                                 <script defer src="script/projects.js"></script>
                             </div>
                         </div>
-                        <img src="assets/avatar.png">
+                        <img src="assets/avatar.png" alt="Me as a cute drawn character waving at you :3" draggable="false">
                     </div>
                 </div>
 

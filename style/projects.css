@@ -56,36 +56,6 @@ div {
     border-bottom: solid 2px #fff;
 }
 
-@media only screen and (max-width: 620px) {
-    #navbar {
-        padding:15px 0;
-    }
-
-    #navbar .item {
-        padding: 10px 0;
-        margin: 0 15px;
-    }
-
-    .project-icon {
-        display: none;
-    }
-
-}
-
-@media only screen and (max-width: 500px) {
-    #navbar .nav-icon {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 806px) {
-    .introduction img {
-        display: none;
-    }
-
-
-}
-
 .section-wrapper {
     display: flex;
     flex-direction: column;
@@ -104,7 +74,6 @@ div {
     margin: 0 30px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     flex-grow: 1;
 }
 
@@ -286,8 +255,8 @@ h3 {
 }
 
 .image-column {
-    -ms-flex: 25%;
-    flex: 25%;
+    -ms-flex: 49%;
+    flex: 49%;
     padding: 0 4px;
 }
 
@@ -359,4 +328,66 @@ footer .link {
     font-weight: 400;
     padding-bottom: 1px;
     border-bottom: none;
+}
+
+@media only screen and (max-width: 620px) {
+    #navbar {
+        padding:15px 0;
+    }
+
+    #navbar .item {
+        padding: 10px 0;
+        margin: 0 15px;
+    }
+
+    .project-icon {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    #navbar .nav-icon {
+        display: none;
+    }
+
+    .button-container {
+        flex-direction: column; /* Stack buttons vertically */
+        width: 70vw; /* Allow buttons to take up their natural width */
+        border-radius: 21px;
+    }
+
+    .toggle-button {
+        width: 100%; /* Make buttons fill the container */
+        text-align: center; /* Center the button text horizontally */
+        display: flex; /* Add flex for alignment */
+        justify-content: center; /* Center text horizontally */
+        align-items: center; /* Center text vertically */
+        padding: 10px 0; /* Adjust padding for proper spacing */
+    }
+
+    .button-container::before {
+        width: 100%; /* Adjust the active background for stacked buttons */
+        height: 33.33%; /* Adjust height for three buttons */
+        transform: translateY(0); /* Reset the transform for proper alignment */
+        transition: transform 0.3s ease;
+    }
+
+    .button-container.dev-active::before {
+        transform: translateY(0); /* Active background on the first button */
+    }
+
+    .button-container.model-active::before {
+        transform: translateY(100%);
+    }
+
+    .button-container.builds-active::before {
+        transform: translateY(200%);
+    }
+}
+
+@media only screen and (max-width: 806px) {
+    .introduction img {
+        display: none;
+    }
 }

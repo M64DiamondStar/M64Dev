@@ -55,7 +55,7 @@
                         <h2 class="scramble"><i class="fa-solid fa-address-card"></i> M64's Portfolio</h2>
                         <p class="scramble">Heya! Welcome to my portfolio! I'm M64, a Minecraft plugin nerd, also known as a developer.</p>
                         <p class="scramble">Want to know what kind of work I've done, or what I'm working on at the moment? Head over to the <a class="link" href="/projects">projects</a> page!</p>
-                        <p class="scramble">If you need a specific plugin, you can also <a class="link" href="/contact">contact</a> me. I'm currently open for commissions! Currently working on some other projects, come back later!</p>
+                        <p class="scramble">If you need a specific plugin, you can also <a class="link" href="/contact">contact me</a>.</p>
                     </section>
                 </div>
             </div>

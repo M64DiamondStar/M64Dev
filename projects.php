@@ -92,6 +92,8 @@
                         All development projects
                     -->
                     <div id="development-projects">
+
+
                         <h2 class="scramble"><i class="fa-solid fa-puzzle-piece"></i> Spigot Plugins</h2>
                         <section class="project-list">
                             <section class="project" id="effectmaster">
@@ -135,30 +137,6 @@
                                     <div class="btn-row">
                                         <a class="btn link" href="https://www.spigotmc.org/resources/bonemealvines-simple-utility-to-bonemeal-vines.111360/" target="_blank" rel="BonemealVines Download">
                                             <i class="fas fa-download"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </section>
-
-                            <section class="project" id="dialoguemaster">
-                                <div>
-                                    <picture>
-                                        <source type="image/webp" srcset="/assets/projects/dialoguemaster.webp">
-                                        <source type="image/jpg" srcset="/assets/projects/dialoguemaster.jpg">
-                                        <img class="project-icon" src="/assets/projects/dialoguemaster.jpg" alt="DialogueMaster icon" draggable="false">
-                                    </picture>
-                                </div>
-                                <div>
-                                    <h3>DialogueMaster [IN DEVELOPMENT]</h3>
-                                        <p>DialogueMaster is an up and coming plugin, which will allow you to create some beautiful interactive dialogues with
-                                            the help of resourcepacks.
-                                        </p>
-                                    <div class="btn-row">
-                                        <a class="btn link" href="https://github.com/M64DiamondStar/DialogueMaster-API" target="_blank" rel="DialogueMaster GitHub API">
-                                            <i class="fab fa-github"></i>
-                                        </a>
-                                        <a class="btn link" href="https://dialoguemaster.m64.dev" target="_blank" rel="DialogueMaster Wiki">
-                                            <i class="fa-solid fa-book"></i>
                                         </a>
                                     </div>
                                 </div>
@@ -562,7 +540,7 @@
 
         <footer>
             <p>
-                &#169; m64.dev 2024
+                &#169; m64.dev <script>document.addEventListener('DOMContentLoaded', function() {document.getElementById("year").innerHTML = new Date().getFullYear();});</script><span id="year"></span>
             </p>
         </footer>
     </body>

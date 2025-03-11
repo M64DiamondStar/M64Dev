@@ -131,7 +131,7 @@
 
         <footer>
             <p>
-                &#169; m64.dev 2024
+                &#169; m64.dev <script>document.addEventListener('DOMContentLoaded', function() {document.getElementById("year").innerHTML = new Date().getFullYear();});</script><span id="year"></span>
             </p>
         </footer>
     </body>

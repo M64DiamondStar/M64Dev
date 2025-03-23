@@ -146,7 +146,7 @@
 
 
                         <br>
-                        <h2 class="scramble"><i class="fa-solid fa-server"></i> Servers</h2>
+                        <h2 class="scramble"><i class="fa-solid fa-server"></i> Servers & organizations</h2>
                         <section class="project-list">
                             <section class="project" id="ingeniamc">
                                 <div>
@@ -179,6 +179,32 @@
                                             <i class="fa-brands fa-instagram"></i>
                                         </a>
                                         <a class="btn link" href="https://www.youtube.com/watch?v=t4LSJjS4Rl0" target="_blank" rel="IngeniaMC Youtube">
+                                            <i class="fa-brands fa-youtube"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <section class="project" id="bundlegroup">
+                                <div>
+                                    <picture>
+                                        <source type="image/webp" srcset="/assets/projects/bundlegroup.webp">
+                                        <source type="image/jpg" srcset="/assets/projects/bundlegroup.jpg">
+                                        <img class="project-icon" src="/assets/projects/bundlegroup.jpg" alt="BundleGroup icon" draggable="false">
+                                    </picture>
+                                </div>
+                                <div>
+                                    <h3>Bundle Group</h3>
+                                        <p>Bundle Group is a tight-knit association that delivers bespoke solutions for clients, hosts impactful charity events and provides robust managed hosting for websites and gaming. I'm a developer at Bundle Group and help with their events by creating well-built plugins and collaborating with other team members.
+                                        </p>
+                                    <div class="btn-row">
+                                        <a class="btn link" href="https://bundlegroup.gg" target="_blank" rel="BundleGroup Website">
+                                            <i class="fa-solid fa-globe"></i>
+                                        </a>
+                                        <a class="btn link" href="https://discord.gg/a9ZBt4wqkz" target="_blank" rel="Atlas Discord">
+                                            <i class="fa-brands fa-discord"></i>
+                                        </a>
+                                        <a class="btn link" href="https://www.youtube.com/@bundlegroupmc" target="_blank" rel="Bundle Group Youtube">
                                             <i class="fa-brands fa-youtube"></i>
                                         </a>
                                     </div>
@@ -297,6 +323,21 @@
                                 <div>
                                     <h3>ParkCosmetics</h3>
                                         <p>ParkCosmetics brings your server to life with customizable shops, complete with unique items, shop NPCs, and textured GUIs. Beyond shops, it’s perfect for creating amazing cosmetics, offering a simple system to add new types. With ParkCosmetics, keeping your server fresh and engaging has never been easier.
+                                        </p>
+                                </div>
+                            </section>
+
+                            <section class="project" id="parkhotels">
+                                <div>
+                                    <picture>
+                                        <source type="image/webp" srcset="/assets/projects/parkhotels.webp">
+                                        <source type="image/jpg" srcset="/assets/projects/parkhotels.jpg">
+                                        <img class="project-icon" src="/assets/projects/parkhotels.jpg" alt="ParkHotels icon" draggable="false">
+                                    </picture>
+                                </div>
+                                <div>
+                                    <h3>ParkHotels</h3>
+                                        <p>Let players rent hotel rooms for up to seven days with this easy-to-use theme park plugin. Customize room types, manage bookings seamlessly, and integrate with Vault for economy support. The interactive book UI makes reservations immersive, while door lock bypass ensures easy room access.
                                         </p>
                                 </div>
                             </section>

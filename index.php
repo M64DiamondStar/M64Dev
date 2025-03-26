@@ -19,6 +19,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 
+        <link href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" rel="stylesheet" >
         <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Noto+Sans+Mono:wght@100..900&family=Poppins&display=swap" rel="stylesheet">
@@ -55,7 +56,22 @@
                         <h2 class="scramble"><i class="fa-solid fa-address-card"></i> M64's Portfolio</h2>
                         <p class="scramble">Heya! Welcome to my portfolio! I'm M64, a Minecraft plugin nerd, also known as a developer.</p>
                         <p class="scramble">Want to know what kind of work I've done, or what I'm working on at the moment? Head over to the <a class="link" href="/projects">projects</a> page!</p>
-                        <p class="scramble">If you need a specific plugin, you can also <a class="link" href="/contact">contact me</a>.</p>
+                        <p class="scramble">If you want a custom plugin or project to be made, you can also <a class="link" href="/contact">contact me</a>. I'm currently open for commissions!</p>
+                        <div class="skills-container">
+                            <div class="skills">
+                                <i class="devicon-html5-plain skill"></i>
+                                <i class="devicon-css3-plain skill"></i>
+                                <i class="devicon-kotlin-plain skill"></i>
+                                <i class="devicon-java-plain skill"></i>
+                                <i class="devicon-python-plain skill"></i>
+                                <i class="devicon-bash-plain skill"></i>
+                                <i class="devicon-docker-plain skill"></i>
+                                <i class="devicon-gradle-original skill"></i>
+                                <i class="devicon-github-original skill"></i>
+                                <i class="devicon-intellij-plain skill"></i>
+                                <i class="devicon-vscode-plain skill"></i>
+                            </div>    
+                        </div>
                     </section>
                 </div>
             </div>

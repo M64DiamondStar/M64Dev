@@ -221,7 +221,7 @@
                                 </div>
                                 <div>
                                     <h3>VentureValley</h3>
-                                        <p>A beautiful Theme Park server with beautiful and realistic rides which is a must to visit! I'm the developer on this server and code the features which make the server unique.
+                                        <p>A beautiful Theme Park server with beautiful and realistic rides which is a must to visit! I'm the developer on this server and code the features which make the server unique. This server is also the winner of Best Custom Rollercoaster at CoasterCon 2024!
                                         </p>
                                     <div class="btn-row">
                                         <a class="btn link" href="https://venturevalleymc.nl" target="_blank" rel="VentureValley Website">

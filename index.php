@@ -74,16 +74,20 @@
                             <i class="devicon-intellij-plain skill" data-skill="IntelliJ IDEA" data-level="★★★★"></i>
                             <i class="devicon-vscode-plain skill" data-skill="VS Code" data-level="★★★"></i>
                         </div>
-                        <p id="skill-text"><br></p>
+                        <div id="skill-text">
+                            <span id="skill-name"><br></span>
+                            <span id="skill-stars"><br></span>
+                        </div>
 
                         <script>
                             const skillText = document.getElementById("skill-text");
+                            const skillName = document.getElementById("skill-name");
+                            const skillStars = document.getElementById("skill-stars");
 
                             document.querySelectorAll(".skill").forEach(skill => {
                                 skill.addEventListener("mouseover", () => {
-                                    const name = skill.getAttribute("data-skill");
-                                    const level = skill.getAttribute("data-level");
-                                    skillText.textContent = `${name} - ${level}`;
+                                    skillName.textContent = skill.getAttribute("data-skill");
+                                    skillStars.textContent = skill.getAttribute("data-level");
                                     skillText.style.opacity = "1";
                                 });
 

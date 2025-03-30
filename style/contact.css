@@ -15,7 +15,7 @@ body,html {
 }
 
 body {
-    background: #1f1f1f;
+    background: #131313;
     color: #ddd;
     display: flex;
     flex-direction: column;
@@ -30,7 +30,6 @@ div {
 
 #navbar {
     padding: 30px 0;
-    background: #191919;
     color: #ddd;
     width: 100%;
     display: flex;

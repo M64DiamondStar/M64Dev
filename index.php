@@ -55,8 +55,9 @@
                     <section class="intro">
                         <h2 class="scramble"><i class="fa-solid fa-address-card"></i> M64's Portfolio</h2>
                         <p class="scramble">Heya! Welcome to my portfolio! I'm M64, a Minecraft plugin nerd, also known as a developer.</p>
-                        <p class="scramble">Want to know what kind of work I've done, or what I'm working on at the moment? Head over to the <a class="link" href="/projects">projects</a> page!</p>
-                        <p class="scramble">If you want a custom plugin or project to be made, you can also <a class="link" href="/contact">contact me</a>. I'm currently open for commissions!</p>
+                        <p class="scramble">Curious about what I've built or what I'm currently tinkering with? Check out the <a class="link" href="/projects">projects</a> page!</p>
+                        <p class="scramble">Need a custom plugin or a unique project? I'm open for commissions, so feel free to <a class="link" href="/contact">reach out</a>. 
+                        Let's make something awesome together!</p>
                         <hr>
                         <div class="skills-container">
                         <div class="skills">
@@ -68,6 +69,7 @@
                             <i class="devicon-bash-plain skill" data-skill="Bash" data-level="★★"></i>
                             <i class="devicon-docker-plain skill" data-skill="Docker" data-level="★★"></i>
                             <i class="devicon-gradle-original skill" data-skill="Gradle" data-level="★★★"></i>
+                            <i class="devicon-maven-plain skill" data-skill="Maven" data-level="★★"></i>
                             <i class="devicon-github-original skill" data-skill="GitHub" data-level="★★★★"></i>
                             <i class="devicon-intellij-plain skill" data-skill="IntelliJ IDEA" data-level="★★★★"></i>
                             <i class="devicon-vscode-plain skill" data-skill="VS Code" data-level="★★★"></i>

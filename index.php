@@ -13,7 +13,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Style -->
-        <link rel="stylesheet" href="style/index.css?ver=6">
+        <link rel="stylesheet" href="style/index.css?ver=7">
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com"> 

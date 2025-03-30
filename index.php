@@ -13,7 +13,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Style -->
-        <link rel="stylesheet" href="style/index.css?ver=3">
+        <link rel="stylesheet" href="style/index.css?ver=4">
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
@@ -57,21 +57,39 @@
                         <p class="scramble">Heya! Welcome to my portfolio! I'm M64, a Minecraft plugin nerd, also known as a developer.</p>
                         <p class="scramble">Want to know what kind of work I've done, or what I'm working on at the moment? Head over to the <a class="link" href="/projects">projects</a> page!</p>
                         <p class="scramble">If you want a custom plugin or project to be made, you can also <a class="link" href="/contact">contact me</a>. I'm currently open for commissions!</p>
+                        <hr>
                         <div class="skills-container">
-                            <div class="skills">
-                                <i class="devicon-html5-plain skill"></i>
-                                <i class="devicon-css3-plain skill"></i>
-                                <i class="devicon-kotlin-plain skill"></i>
-                                <i class="devicon-java-plain skill"></i>
-                                <i class="devicon-python-plain skill"></i>
-                                <i class="devicon-bash-plain skill"></i>
-                                <i class="devicon-docker-plain skill"></i>
-                                <i class="devicon-gradle-original skill"></i>
-                                <i class="devicon-github-original skill"></i>
-                                <i class="devicon-intellij-plain skill"></i>
-                                <i class="devicon-vscode-plain skill"></i>
-                            </div>    
+                        <div class="skills">
+                            <i class="devicon-html5-plain skill" data-skill="HTML" data-level="★★★★"></i>
+                            <i class="devicon-css3-plain skill" data-skill="CSS" data-level="★★★"></i>
+                            <i class="devicon-kotlin-plain skill" data-skill="Kotlin" data-level="★★★★★"></i>
+                            <i class="devicon-java-plain skill" data-skill="Java" data-level="★★★★★"></i>
+                            <i class="devicon-python-plain skill" data-skill="Python" data-level="★★★"></i>
+                            <i class="devicon-bash-plain skill" data-skill="Bash" data-level="★★"></i>
+                            <i class="devicon-docker-plain skill" data-skill="Docker" data-level="★★"></i>
+                            <i class="devicon-gradle-original skill" data-skill="Gradle" data-level="★★★"></i>
+                            <i class="devicon-github-original skill" data-skill="GitHub" data-level="★★★★"></i>
+                            <i class="devicon-intellij-plain skill" data-skill="IntelliJ IDEA" data-level="★★★★"></i>
+                            <i class="devicon-vscode-plain skill" data-skill="VS Code" data-level="★★★"></i>
                         </div>
+                        <p id="skill-text"><br></p>
+
+                        <script>
+                            const skillText = document.getElementById("skill-text");
+
+                            document.querySelectorAll(".skill").forEach(skill => {
+                                skill.addEventListener("mouseover", () => {
+                                    const name = skill.getAttribute("data-skill");
+                                    const level = skill.getAttribute("data-level");
+                                    skillText.textContent = `${name} - ${level}`;
+                                    skillText.style.opacity = "1";
+                                });
+
+                                skill.addEventListener("mouseout", () => {
+                                    skillText.style.opacity = "0";
+                                });
+                            });
+                        </script>
                     </section>
                 </div>
             </div>

@@ -1,3 +1,7 @@
+::selection {
+    background-color: #b8b8b8;
+}
+
 html {
     scroll-behavior: smooth;
     line-height: 1.15;
@@ -84,26 +88,44 @@ div {
     padding: 10px;
 }
 
+.section-wrapper hr {
+    margin-top: 16px;
+    border-style: dashed;
+}
+
 .skills-container {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    padding: 20px;
 }
 
 .skills {
     display: flex;
     width: 50px;
     font-size: 30px;
+    padding-top: 10px;
 }
 
 .skill {
     padding: 0px 5px 0px 5px;
     transition: transform 0.1s ease-in-out;
+    cursor: pointer;
 }
 
 .skill:hover {
     transform: scale(1.1);
+}
+
+#skill-text {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #626262;
+    cursor: default;
 }
 
 #wrapper {

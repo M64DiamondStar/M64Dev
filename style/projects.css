@@ -2,6 +2,24 @@
     background-color: #b8b8b8;
 }
 
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #00000000; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffffff; 
+    transition: transform 1s ease-in-out;
+    border-radius: 100% 0% 0% 100%;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(200, 200, 200); 
+}
+
 html {
     scroll-behavior: smooth;
     line-height: 1.15;

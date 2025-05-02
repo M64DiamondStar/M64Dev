@@ -61,10 +61,10 @@
                         <hr>
                         <div class="skills-container">
                         <div class="skills">
-                            <i class="devicon-html5-plain skill" data-skill="HTML" data-level="★★★★"></i>
+                            <i class="devicon-html5-plain skill" data-skill="HTML" data-level="★★★"></i>
                             <i class="devicon-css3-plain skill" data-skill="CSS" data-level="★★★"></i>
-                            <i class="devicon-kotlin-plain skill" data-skill="Kotlin" data-level="★★★★★"></i>
-                            <i class="devicon-java-plain skill" data-skill="Java" data-level="★★★★★"></i>
+                            <i class="devicon-kotlin-plain skill" data-skill="Kotlin" data-level="★★★★"></i>
+                            <i class="devicon-java-plain skill" data-skill="Java" data-level="★★★★"></i>
                             <i class="devicon-python-plain skill" data-skill="Python" data-level="★★★"></i>
                             <i class="devicon-bash-plain skill" data-skill="Bash" data-level="★★"></i>
                             <i class="devicon-docker-plain skill" data-skill="Docker" data-level="★★"></i>

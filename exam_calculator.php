@@ -61,7 +61,7 @@
                             <input type="number" id="inputA" placeholder="Dagelijks werk semester 1">
                             <input type="number" id="inputB" placeholder="Dagelijks werk semester 2">
 
-                            <div id="resultBox">Result: <span id="result">0</span>%</div>
+                            <div id="resultBox">Je moet minstens <span id="result">0</span>% behalen.</div>
                         </div>
                     </section>
                 </div>

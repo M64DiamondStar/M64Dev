@@ -61,7 +61,7 @@
                             <input type="number" id="inputA" placeholder="Dagelijks werk semester 1">
                             <input type="number" id="inputB" placeholder="Dagelijks werk semester 2">
 
-                            <div id="resultBox">Je moet minstens <span id="result">0</span>% behalen.</div>
+                            <div id="resultBox"><span id="result">Vul de data in</span></div>
                         </div>
                     </section>
                 </div>
@@ -82,7 +82,15 @@
                     const b = parseFloat(inputB.value) || 0;
                     if(a == 0 || b == 0) return;
                     const result = parseInt(nietTaalvak ? (150 - a - b)/140*100 : (150 - a - 0.7*b)/60*100) + 1;
-                    resultSpan.textContent = result;
+                    if(result <= 0){
+                        resultSpan.textContent = "No stresso, no stresso, it's gonna be espresso!!! Je bent er al zeker door!";
+                        return;
+                    }
+                    if(result > 100){
+                        resultSpan.textContent = "(Je hebt je getallen fout ingegeven of je hebt een probleem, want je moet meer dan 100% halen..." + result + "% om precies te zijn)";
+                        return;
+                    }
+                    resultSpan.textContent = "Je moet minstens " + result + "% behalen.";
                 }
 
                 inputA.addEventListener("input", calculate);

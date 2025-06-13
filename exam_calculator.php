@@ -54,8 +54,9 @@
             <div class="page-content">
                 <div class="section-wrapper">
                     <section class="intro">
-                        <center><p class="scramble">Zet eerst de mode op wat voor een vak je wil berekenen. Geef dan als eerste input je punt van het S1 en als tweede
-                            input je dagelijks werk (DW) van semester 2. Geef de exacte getallen in die in je rapport staan, je moet zelf niks berekenen.</p></center>
+                        <center><p class="scramble">Zet eerst de mode op wat voor een vak je wil berekenen. Geef dan als eerste input je punt van S1 en als tweede
+                            input je dagelijks werk (DW) van semester 2. Voor taalvakken geef je als tweede input je totaal (dit is hetzelfde als je dagelijks werk van semester 2).
+                             Geef de exacte getallen in die in je rapport staan, je moet zelf niks berekenen.</p></center>
                         <div class="calculator">
                             <button id="toggleOperation">Mode: Niet-taalvak</button>
                             <input type="number" id="inputA" placeholder="Totaal van semester 1">

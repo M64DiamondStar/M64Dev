@@ -58,7 +58,7 @@
                             input je dagelijks werk van semester 2. Geef de exacte getallen in die in je rapport staan, je moet zelf niks berekenen.</p></center>
                         <div class="calculator">
                             <button id="toggleOperation">Mode: Niet-taalvak</button>
-                            <input type="number" id="inputA" placeholder="Dagelijks werk semester 1">
+                            <input type="number" id="inputA" placeholder="Totaal van semester 1">
                             <input type="number" id="inputB" placeholder="Dagelijks werk semester 2">
 
                             <div id="resultBox"><span id="result">Vul de data in</span></div>

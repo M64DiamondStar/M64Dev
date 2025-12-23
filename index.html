@@ -102,9 +102,8 @@
         </div>
 
         <script>
-            document.addEventListener("DOMContentLoaded", function() {
+            window.onload = function() {
                 const apiUrl = `https://status-api.m64.dev/status/get`;
-
                 const outputElement = document.getElementById('online-status');
 
                 fetch(apiUrl)
@@ -131,6 +130,9 @@
                 .catch(error => {
                     console.error('Error:', error);
                 });
+            }
+
+            document.addEventListener("DOMContentLoaded", function() {
 
                 const elements = document.querySelectorAll('.scramble');
                 elements.forEach(element => scrambleText(element, 800)); // Total duration of 1.5 seconds

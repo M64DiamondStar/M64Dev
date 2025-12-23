@@ -115,7 +115,7 @@
                     return response.json();
                 })
                 .then(data => {
-                    const status = data.status;
+                    const status = Number(data.status);
                     if(status == 0) {
                         outputElement.style.color = "#404040";
                     } else if(status == 1) {

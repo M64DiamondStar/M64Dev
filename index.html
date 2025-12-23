@@ -116,6 +116,8 @@
                 })
                 .then(data => {
                     const status = Number(data.status);
+                    console.log(status);
+                    console.log(data);
                     if(status == 0) {
                         outputElement.style.color = "#404040";
                     } else if(status == 1) {

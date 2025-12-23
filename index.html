@@ -53,7 +53,7 @@
             <div class="page-content">
                 <div class="section-wrapper">
                     <section class="intro">
-                        <h2 class="scramble"><i class="fa-solid fa-address-card"></i> M64's Portfolio</h2>
+                        <h2 class="scramble"><i class="fa-solid fa-address-card"></i> M64's Portfolio <span id="online-status">&#8226;</span></h2>
                         <p class="scramble">Heya! Welcome to my portfolio! I'm M64, a Minecraft plugin nerd, also known as a developer.</p>
                         <p class="scramble">Curious about what I've built or what I'm currently tinkering with? Check out the <a class="link" href="/projects">projects</a> page!</p>
                         <p class="scramble">Need a custom plugin or a unique project? I'm open for commissions, so feel free to <a class="link" href="/contact">reach out</a>. 
@@ -103,6 +103,33 @@
 
         <script>
             document.addEventListener("DOMContentLoaded", function() {
+                const apiUrl = `https://status-api.m64.dev/status/get`;
+
+                const outputElement = document.getElementById('online-status');
+
+                fetch(apiUrl)
+                .then(response => {
+                    if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    const status = data.status;
+                    if(status == 0) {
+                        outputElement.style.color = "#404040";
+                    } else if(status == 1) {
+                        outputElement.style.color = "#52e378";
+                    } else if(status == 2) {
+                        outputElement.style.color = "#bf3d3d";
+                    } else if(status == 3) {
+                        outputElement.style.color = "#f5b13b";
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+
                 const elements = document.querySelectorAll('.scramble');
                 elements.forEach(element => scrambleText(element, 800)); // Total duration of 1.5 seconds
 

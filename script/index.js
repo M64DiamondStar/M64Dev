@@ -18,15 +18,19 @@ window.onload = function () {
       switch (status) {
         case 1: // ONLINE
           outputElement.classList.add("online");
+          outputElement.innerText = "Online";
           break;
         case 2: // DO_NOT_DISTURB
           outputElement.classList.add("dnd");
+          outputElement.innerText = "Do not disturb";
           break;
         case 3: // IDLE
           outputElement.classList.add("idle");
+          outputElement.innerText = "Idle";
           break;
         default:
           outputElement.classList.add("offline");
+          outputElement.innerText = "Offline";
           break;
       }
     })

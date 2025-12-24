@@ -1,5 +1,7 @@
 const outputElement = document.getElementById("online-status");
 const tooltipElement = document.getElementById("online-tooltip");
+const onlineTooltip =
+  '<span id="online-tooltip">This is my current online status on Discord</span>';
 
 document.addEventListener("mousemove", changeTooltipLocation);
 
@@ -24,19 +26,19 @@ window.onload = function () {
       switch (status) {
         case 1: // ONLINE
           outputElement.classList.add("online");
-          outputElement.innerText = "Online";
+          outputElement.innerHTML = "Online" + onlineTooltip;
           break;
         case 2: // DO_NOT_DISTURB
           outputElement.classList.add("dnd");
-          outputElement.innerText = "Do not disturb";
+          outputElement.innerHTML = "Do not disturb" + onlineTooltip;
           break;
         case 3: // IDLE
           outputElement.classList.add("idle");
-          outputElement.innerText = "Idle";
+          outputElement.innerHTML = "Idle" + onlineTooltip;
           break;
         default:
           outputElement.classList.add("offline");
-          outputElement.innerText = "Offline";
+          outputElement.innerHTML = "Offline" + onlineTooltip;
           break;
       }
 

@@ -1,5 +1,5 @@
 const outputElement = document.getElementById("online-status");
-const tooltipElement = document.getElementById("online-tooltip");
+let tooltipElement = document.getElementById("online-tooltip");
 const onlineTooltip =
   '<span id="online-tooltip">This is my current online status on Discord</span>';
 
@@ -42,8 +42,7 @@ window.onload = function () {
           break;
       }
 
-      // Force a re-render
-      void outputElement.offsetHeight;
+      tooltipElement = document.getElementById("online-tooltip");
     })
     .catch((error) => console.error("Error fetching status:", error));
 };

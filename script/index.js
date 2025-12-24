@@ -5,7 +5,7 @@ const onlineTooltip =
 
 document.addEventListener("mousemove", changeTooltipLocation);
 
-window.onload = function () {
+function fetchOnlineStatus() {
   const apiUrl = `https://status-api.m64.dev/status/get`;
 
   fetch(apiUrl)
@@ -45,7 +45,7 @@ window.onload = function () {
       tooltipElement = document.getElementById("online-tooltip");
     })
     .catch((error) => console.error("Error fetching status:", error));
-};
+}
 
 function changeTooltipLocation(e) {
   tooltipElement.style.left = e.pageX - tooltipElement.offsetWidth / 2 + "px";

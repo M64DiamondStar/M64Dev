@@ -56,7 +56,11 @@
                 <div class="section-wrapper">
                     <section class="intro">
                         <h2 class="scramble" style="display: inline;"><i class="fa-solid fa-address-card"></i> M64's Portfolio </h2>
-                        <h5 style="display: inline;"><a class="link" target="_blank" href="https://discord.com/invite/Scv9afJwXp"><span id="online-status">&#8226;<span id="online-tooltip">This is my current online status on Discord</span></span></a></h5>
+                        <h5 style="display: inline;">
+                            <a class="link" target="_blank" href="https://discord.com/invite/Scv9afJwXp">
+                                <span id="online-status">Loading...<span id="online-tooltip">This is my current online status on Discord</span></span>
+                            </a>
+                        </h5>
                         <p class="scramble">Heya! Welcome to my portfolio! I'm M64, a Minecraft plugin nerd, also known as a developer.</p>
                         <p class="scramble">Curious about what I've built or what I'm currently tinkering with? Check out the <a class="link" href="/projects">projects</a> page!</p>
                         <p class="scramble">Need a custom plugin or a unique project? I'm open for commissions, so feel free to <a class="link" href="/contact">reach out</a>. 
@@ -108,7 +112,7 @@
             document.addEventListener("DOMContentLoaded", function() {
 
                 const elements = document.querySelectorAll('.scramble');
-                elements.forEach(element => scrambleText(element, 800)); // Total duration of 1.5 seconds
+                elements.forEach(element => scrambleText(element, 800)); // Total duration of 0.8 seconds
 
                 function scrambleText(element, duration) {
                     const originalHtml = element.innerHTML; // Store original HTML to restore later
@@ -140,6 +144,8 @@
                             setTimeout(update, 60); // Update every 60ms for smoother animation
                         } else {
                             element.innerHTML = originalHtml; // Restore original HTML
+                            window.setInterval(fetchOnlineStatus, 5000); // Update status every 5 seconds
+                            fetchOnlineStatus();
                         }
                     }
 

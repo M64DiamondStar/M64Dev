@@ -223,3 +223,18 @@ footer .link {
 #online-status.idle {
   color: #f5b13b !important;
 }
+
+#online-status:hover #online-tooltip {
+  display: block;
+}
+
+#online-tooltip {
+  display: none;
+  background: #0000007c;
+  text-align: center;
+  position: absolute;
+  border-radius: 5px;
+  padding: 4px;
+  z-index: 1000;
+  max-width: 150px;
+}

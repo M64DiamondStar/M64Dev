@@ -4,6 +4,7 @@ const onlineTooltip =
   '<span id="online-tooltip">This is my current online status on Discord</span>';
 
 document.addEventListener("mousemove", changeTooltipLocation);
+window.setInterval(fetchOnlineStatus, 5000); // Update status every 5 seconds
 
 function fetchOnlineStatus() {
   const apiUrl = `https://status-api.m64.dev/status/get`;

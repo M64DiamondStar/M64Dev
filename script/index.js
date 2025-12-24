@@ -35,6 +35,9 @@ window.onload = function () {
           outputElement.innerText = "Offline";
           break;
       }
+
+      // Force a re-render
+      void outputElement.offsetHeight;
     })
     .catch((error) => console.error("Error fetching status:", error));
 };

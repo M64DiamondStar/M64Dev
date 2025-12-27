@@ -12,7 +12,11 @@ function fetchOnlineStatus() {
 
   fetch(apiUrl)
     .then((response) => {
-      if (!response.ok) throw new Error("Network response was not ok");
+      if (!response.ok) {
+        outputElement.classList.remove("offline", "online", "dnd", "idle");
+        outputElement.innerHTML = "Couldn't load status";
+        outputElement.classList.add("offline");
+      }
       return response.json();
     })
     .then((data) => {
@@ -43,10 +47,18 @@ function fetchOnlineStatus() {
 
       tooltipElement = document.getElementById("online-tooltip");
     })
-    .catch((error) => console.error("Error fetching status:", error));
+    .catch((error) => {
+      console.error("Error fetching status:", error);
+      outputElement.classList.remove("offline", "online", "dnd", "idle");
+      outputElement.innerHTML = "Couldn't load status";
+      outputElement.classList.add("offline");
+    });
 }
 
 function changeTooltipLocation(e) {
+  if (tooltipElement == null) {
+    return;
+  }
   tooltipElement.style.left = e.pageX - tooltipElement.offsetWidth / 2 + "px";
   tooltipElement.style.top = e.pageY - tooltipElement.offsetHeight * 1.2 + "px";
 }

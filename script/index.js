@@ -17,9 +17,6 @@ function fetchOnlineStatus() {
     })
     .then((data) => {
       const status = Number(data.status);
-      console.log("Status API returned:", status);
-      console.log("Element:", outputElement);
-      console.log("Classes before:", outputElement.className);
 
       // Remove all status classes
       outputElement.classList.remove("offline", "online", "dnd", "idle");

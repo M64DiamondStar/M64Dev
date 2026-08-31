@@ -6,6 +6,7 @@ html {
   scroll-behavior: smooth;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
+  font-family: "Noto Sans Mono", monospace;
 }
 
 body,
@@ -36,19 +37,25 @@ div {
 #navbar {
   position: fixed;
   top: 0;
-  padding: 30px 0;
+  margin: 12px;
+  padding: 8px 8px;
   color: #ddd;
-  width: 100%;
+  border: 1px rgba(255 255 255 / 0.3) solid;
+  border-radius: 6px;
   display: flex;
   justify-content: center;
+
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(12px);
+  z-index: 1000;
 }
 
 #navbar .item {
-  font-weight: 800;
+  font-weight: 600;
   padding: 10px 0;
-  margin: 0 30px;
-  font-family: "Alegreya Sans SC", sans-serif;
-  font-size: 18px;
+  margin: 0 16px;
+  font-size: 14px;
   transition: 0.5s;
 }
 

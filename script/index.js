@@ -62,3 +62,19 @@ function changeTooltipLocation(e) {
   tooltipElement.style.left = e.pageX - tooltipElement.offsetWidth / 2 + "px";
   tooltipElement.style.top = e.pageY - tooltipElement.offsetHeight * 1.2 + "px";
 }
+
+/*
+ * SMOOTH SCROLL
+ */
+// Initialize Lenis
+const lenis = new Lenis({
+  autoRaf: true,
+});
+
+function scrollWork() {
+  lenis.scrollTo(document.getElementById('work'));
+}
+
+function scrollContact() {
+  lenis.scrollTo(document.getElementById('contact'));
+}

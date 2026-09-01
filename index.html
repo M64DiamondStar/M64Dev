@@ -47,16 +47,16 @@
   <body>
     <nav id="navbar">
       <a class="link item" href="/">
-        <span>Home</span>
+        <span class="scramble">Home</span>
       </a>
-      <a class="link item" href="/">
-        <span>About</span>
+      <a class="link item" onclick="scrollToElement('about')">
+        <span class="scramble">About</span>
       </a>
-      <a class="link item" href="/">
-        <span>Work</span>
+      <a class="link item" onclick="scrollToElement('work')">
+        <span class="scramble">Work</span>
       </a>
-      <a class="link item" href="/">
-        <span>Contact</span>
+      <a class="link item" onclick="scrollToElement('contact')">
+        <span class="scramble">Contact</span>
       </a>
     </nav>
     <div id="wrapper">
@@ -79,8 +79,8 @@
               <hr />
 
               <div style="text-align: center;">
-                <button class="primary" onclick="scrollWork()">See My Work</button>
-                <button class="secondary" onclick="scrollContact()">Contact Me</button>
+                <button class="primary" onclick="scrollToElement('work')"><span class="scramble">See My Work</span></button>
+                <button class="secondary" onclick="scrollToElement('contact')"><span class="scramble">Contact Me</span></button>
               </div>
             </div>
           </section>
@@ -127,7 +127,7 @@
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         const elements = document.querySelectorAll(".scramble");
-        elements.forEach((element) => scrambleText(element, 600));
+        elements.forEach((element) => scrambleText(element, 800));
 
         function scrambleText(element, duration) {
           const originalHtml = element.innerHTML; // Store original HTML to restore later

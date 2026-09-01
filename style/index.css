@@ -59,6 +59,10 @@ div {
   transition: 0.5s;
 }
 
+#navbar .item:hover {
+  cursor: pointer;
+}
+
 #navbar .item i {
   margin-right: 10px;
 }

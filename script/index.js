@@ -71,10 +71,6 @@ const lenis = new Lenis({
   autoRaf: true,
 });
 
-function scrollWork() {
-  lenis.scrollTo(document.getElementById('work'));
-}
-
-function scrollContact() {
-  lenis.scrollTo(document.getElementById('contact'));
+function scrollToElement(elementId) {
+  lenis.scrollTo(document.getElementById(elementId));
 }

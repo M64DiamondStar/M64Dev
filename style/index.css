@@ -144,6 +144,19 @@ button.secondary:hover {
   cursor: pointer;
 }
 
+button.copied {
+    background-color: rgb(61 255 0 / 0.2);
+    color: #fff;
+    border: 1px rgb(61 255 0 / 0.1) solid;
+    border-radius: 6px;
+    font-family: "Noto Sans Mono", monospace;
+    padding: 12px 24px;
+}
+
+button.copied:hover {
+  background-color: rgb(61 255 0 / 0.3);
+}
+
 .skills-container {
   padding: 12px;
   display: flex;
@@ -178,6 +191,16 @@ button.secondary:hover {
   background-color: rgba(255 255 255 / 0.05);
 }
 
+.mail-container {
+  display: flex;
+  gap: 10px;
+  padding: 12px;
+  border: 1px rgba(255 255 255 / 0.3) dashed;
+  border-radius: 6px;
+  align-items: center;
+  justify-content: space-between;
+}
+
 #wrapper {
   font-family: "Noto Sans Mono", monospace;
   font-weight: 300;
@@ -201,6 +224,10 @@ button.secondary:hover {
   50% {
     opacity: 0;
   }
+}
+
+space {
+    height: 200px;
 }
 
 .link {

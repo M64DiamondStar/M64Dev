@@ -74,3 +74,20 @@ const lenis = new Lenis({
 function scrollToElement(elementId) {
   lenis.scrollTo(document.getElementById(elementId), {offset: -60});
 }
+
+/*
+ * Contact stuff
+ */
+function copyEmail(element) {
+    const email = "me@ymanu.dev";
+    const innerHtML = element.innerHTML;
+    navigator.clipboard.writeText(email).then(() => {
+        element.classList.add("copied");
+        element.innerHTML = "<i class=\"fa-solid fa-check\"></i> Email Copied";
+
+        setTimeout(() => {
+            element.classList.remove("copied");
+            element.innerHTML = innerHtML;
+          }, 1700);
+    });
+}

@@ -5,7 +5,7 @@ const onlineTooltip =
 
 document.addEventListener("mousemove", changeTooltipLocation);
 window.setTimeout(fetchOnlineStatus, 2000); // Show first after 2 seconds
-window.setInterval(fetchOnlineStatus, 10000); // Update status every 5 seconds
+window.setInterval(fetchOnlineStatus, 10000); // Update status every 10 seconds
 
 function fetchOnlineStatus() {
   const apiUrl = `https://status-api.m64.dev/status/get`;
@@ -72,5 +72,5 @@ const lenis = new Lenis({
 });
 
 function scrollToElement(elementId) {
-  lenis.scrollTo(document.getElementById(elementId));
+  lenis.scrollTo(document.getElementById(elementId), {offset: -60});
 }

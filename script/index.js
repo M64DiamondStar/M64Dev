@@ -91,3 +91,7 @@ function copyEmail(element) {
           }, 1700);
     });
 }
+
+function setRemainingChars(element, spanId, maxChars) {
+    document.getElementById(spanId).innerText = (maxChars - element.value.length).toString();
+}

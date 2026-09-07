@@ -200,6 +200,7 @@ button.copied:hover {
 }
 
 .contact-container {
+  position: relative;
   display: flex;
   border: 1px rgba(255 255 255 / 0.3) dashed;
   border-radius: 6px;
@@ -255,6 +256,18 @@ button.copied:hover {
 
 .req-dot {
   color: #ec8fa1;
+}
+
+#contact-modal {
+  position: absolute;
+  inset: 0 0 0 0;
+  justify-items: center;
+  align-content: center;
+  text-align: center;
+  background-color: rgba(0 0 0 / 0.75);
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 10%;
 }
 
 @media only screen and (max-width: 550px) {

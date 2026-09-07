@@ -79,6 +79,7 @@ function scrollToElement(elementId) {
  * Contact stuff
  */
 function copyEmail(element) {
+    if (element.classList.contains("copied")) return;
     const email = "me@ymanu.dev";
     const innerHtML = element.innerHTML;
     navigator.clipboard.writeText(email).then(() => {
@@ -94,4 +95,77 @@ function copyEmail(element) {
 
 function setRemainingChars(element, spanId, maxChars) {
     document.getElementById(spanId).innerText = (maxChars - element.value.length).toString();
+}
+
+document.getElementById("contact-form").addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const form = event.target;
+
+    const data = {
+        name: form.name.value,
+        email: form.email.value,
+        discord: form.discord.value || null,
+        message: form.message.value
+    };
+
+    console.log(data);
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort, 5000);
+
+    const contactForm = document.getElementById("contact-form");
+    const contactSubmit = document.getElementById("contact-submit");
+
+    const modal = document.getElementById("contact-modal");
+    const modalTitle = document.getElementById("contact-modal-title");
+    const modalText = document.getElementById("contact-modal-text");
+    const modalClose = document.getElementById("contact-modal-close");
+
+    try {
+
+        contactSubmit.innerText = "Sending..."
+        const response = await fetch("http://localhost:8080/contact/webhook", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(data),
+            signal: controller.signal,
+        });
+
+        clearTimeout(timeoutId);
+        modalClose.style.transition = "0.25s";
+
+        if (response.ok) {
+            modal.style.visibility = "visible";
+            modalTitle.innerHTML = "<i class=\"fa-solid fa-check\"></i> Successfully sent";
+            modalText.innerText = "Your message has been delivered by my magical pigeon. I'll get in touch as soon as possible!";
+
+            contactForm.reset();
+        } else if (response.status === 429) {
+            modal.style.visibility = "visible";
+            modalTitle.innerHTML = "<i class=\"fa-solid fa-circle-exclamation\"></i> Too faaasstttt!";
+            modalText.innerText = "You've sent too many request already, please try again later.";
+        } else {
+            modal.style.visibility = "visible";
+            modalTitle.innerHTML = "<i class=\"fa-solid fa-x\"></i> An error occurred!";
+            modalText.innerText = "Something went wrong... Please try again later!";
+        }
+
+    } catch (e) {
+        clearTimeout(timeoutId);
+
+        modal.style.visibility = "visible";
+        modalTitle.innerHTML = "<i class=\"fa-solid fa-x\"></i> An error occurred!";
+        modalText.innerText = "Something went wrong... Please try again later!";
+
+        console.error("Fetch error: " + e);
+    } finally {
+        contactSubmit.innerText = "Submit";
+    }
+});
+
+function closeContactModal(button) {
+    const modal = document.getElementById("contact-modal");
+    modal.style.visibility = "hidden";
+    button.style.transition = "0s";
 }

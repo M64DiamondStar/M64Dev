@@ -155,11 +155,11 @@
 
             <p class="scramble">
               You can contact me through mail or through the form below. I will try to respond as soon as possible.
-              If you have a question, <a class="link" target="_blank" href="https://dontasktoask.com"> just ask</a>!
             </p>
 
             <div class="contact-container">
-              <form>
+              <form id="contact-form">
+
                 <div class="form-row">
                   <label for="name">Name<span class="req-dot">*</span></label>
 
@@ -168,6 +168,7 @@
                     <span class="remaining-chars" id="remaining-chars-name">64</span>
                   </div>
                 </div>
+
                 <div class="form-row">
                   <label for="email">Email<span class="req-dot">*</span></label>
                   <div class="input-container">
@@ -175,6 +176,7 @@
                     <span class="remaining-chars" id="remaining-chars-mail">64</span>
                   </div>
                 </div>
+
                 <div class="form-row">
                   <label for="discord">Discord</label>
                   <div class="input-container">
@@ -182,6 +184,7 @@
                     <span class="remaining-chars" id="remaining-chars-discord">64</span>
                   </div>
                 </div>
+
                 <div class="form-row">
                   <label class="textarea-label" for="message">Message<span class="req-dot">*</span></label>
                   <div class="input-container">
@@ -189,11 +192,24 @@
                     <span class="remaining-chars" id="remaining-chars-message">2048</span>
                   </div>
                 </div>
+
                 <div class="form-row">
                   <div></div>
-                  <button class="primary">Submit</button>
+                  <button class="primary" id="contact-submit" style="width: 170px">Submit</button>
                 </div>
+
               </form>
+
+              <div id="contact-modal" style="visibility: hidden">
+                <h3 id="contact-modal-title">Modal title</h3>
+                <p id="contact-modal-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <button id="contact-modal-close" class="primary" onclick="closeContactModal(this)">Close</button>
+              </div>
+
+
             </div>
 
             <div class="mail-container">

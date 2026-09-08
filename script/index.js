@@ -1,3 +1,5 @@
+const api_url = "https://status-api.m64.dev";
+
 const outputElement = document.getElementById("online-status");
 let tooltipElement = document.getElementById("online-tooltip");
 const onlineTooltip =
@@ -8,7 +10,7 @@ window.setTimeout(fetchOnlineStatus, 2000); // Show first after 2 seconds
 window.setInterval(fetchOnlineStatus, 10000); // Update status every 10 seconds
 
 function fetchOnlineStatus() {
-  const apiUrl = `https://status-api.m64.dev/status/get`;
+  const apiUrl = `${api_url}/status/get`;
 
   fetch(apiUrl)
     .then((response) => {
@@ -121,9 +123,8 @@ document.getElementById("contact-form").addEventListener("submit", async (event)
     const modalClose = document.getElementById("contact-modal-close");
 
     try {
-
         contactSubmit.innerText = "Sending..."
-        const response = await fetch("http://localhost:8080/contact/webhook", {
+        const response = await fetch(`${api_url}/contact/webhook`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
